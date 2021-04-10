@@ -13,8 +13,6 @@ This is an Express REST API service for [`News Viewer`](https://github.com/hseoy
 - [Node.js](https://nodejs.org/)
 - [Express](https://expressjs.com/)
 - [News API](https://newsapi.org/)
-- [ESLint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
 
 ## Install and Run
 

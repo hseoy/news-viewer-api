@@ -8,7 +8,7 @@ const handleGetNews = async (req, res) => {
     const response = await newsapi.v2.topHeadlines({ category, country });
     return res.json({ articles: response.articles });
   } catch {
-    return res.status(400).json("the 'country' query parameter is required");
+    return res.status(400).json('Query parameters are not valid');
   }
 };
 
